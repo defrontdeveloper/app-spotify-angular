@@ -1,0 +1,7 @@
+<div class="input-group">
+  <input #paste type="text" class="form-control" placeholder="Paste Key Spotify API" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  <div class="input-group-append">
+    <button class="btn btn-outline-secondary" type="button">Paste</button>
+    <button class="btn btn-primary" type="button" (click)="sendKey(paste.value)">Send</button>
+  </div>
+</div>
